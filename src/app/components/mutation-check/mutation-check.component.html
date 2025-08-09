@@ -1,0 +1,7 @@
+<div class="mutation-form">
+  <h2>Check Mutation</h2>
+  <input [(ngModel)]="dnaInput" placeholder="Enter DNA (comma separated)">
+  <button (click)="check()">Check</button>
+
+  <p *ngIf="result" class="result">{{ result }}</p>
+</div>

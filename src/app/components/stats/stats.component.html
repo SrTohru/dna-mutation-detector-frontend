@@ -1,0 +1,6 @@
+<div class="stats-container" *ngIf="stats">
+  <h2>Resultados de Mutaciones</h2>
+  <p><strong>Mutaciones detectadas:</strong> {{ stats.count_mutations }}</p>
+  <p><strong>Sin mutación:</strong> {{ stats.count_no_mutation }}</p>
+  <p><strong>Ratio:</strong> {{ stats.ratio }}</p>
+</div>

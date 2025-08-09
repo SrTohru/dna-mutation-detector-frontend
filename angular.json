@@ -59,7 +59,8 @@
               "buildTarget": "dna-mutation-detector-frontend:build:production"
             },
             "development": {
-              "buildTarget": "dna-mutation-detector-frontend:build:development"
+              "buildTarget": "dna-mutation-detector-frontend:build:development",
+              "proxyConfig": "proxy.conf.json"
             }
           },
           "defaultConfiguration": "development"

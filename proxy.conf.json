@@ -1,0 +1,10 @@
+{
+  "/api": {
+    "target": "https://wise-kingfisher-1srtohrus-a8b5aca5.koyeb.app",
+    "secure": true,
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/api": ""
+    }
+  }
+}
